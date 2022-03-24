@@ -1,0 +1,2 @@
+In this section we learned about JavaScript primitive types such as Number, String, Boolean, Null, and Undefinied. 
+We also reviewed let, const, and var variables and we ended the section learning about variable naming conventions.
