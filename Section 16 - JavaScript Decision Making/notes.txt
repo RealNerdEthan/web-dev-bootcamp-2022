@@ -1,0 +1,11 @@
+Compairison signs:
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+== equality (checks that values are equal but doesn't evaluate type) (converts both to the same type, then compares)
+!= not equal
+=== strict equality (checks that vales AND types are the same, doesn't do any conversion)
+!== strict non-equality
+
+Best practice is to use ===.
