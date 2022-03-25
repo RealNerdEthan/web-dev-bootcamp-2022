@@ -1,7 +1,0 @@
-What we learned aboutin this section:
-
-String properties: Give information about the string.
-String methods: Creates a new copy of the sting and applies specified change(s) (.trim, .toUpperCase, etc).
-String arguments: Are inputs that can be passed into a method to alter how they behave. (.indexOf, .slice, .replace, etc).
-
-We also worked on several coding exercises and took quizes to test on our comprehension.
