@@ -1,3 +1,4 @@
+---Compairison---
 Compairison signs:
 > greater than
 < less than
@@ -9,3 +10,8 @@ Compairison signs:
 !== strict non-equality
 
 Best practice is to use ===.
+
+
+---Turthy and Falsy---
+Falsy values are: false, 0, ""(empty string), null, undefinied, NaN. 
+Everything else is Truthy!
