@@ -15,3 +15,13 @@ Best practice is to use ===.
 ---Turthy and Falsy---
 Falsy values are: false, 0, ""(empty string), null, undefinied, NaN. 
 Everything else is Truthy!
+
+
+---Logical Operators---
+&& And (both left and right have to be true for the entire thing to be true)
+|| Or (if one side is true, the entire thing is true)
+! Not (inverses the inherent truthy or falsy of a value making what was true to be now false and what was false to be now true)
+
+
+---Switch Statement---
+Is a control flow statment that can replace multiple if statemnts. It's not very commonly used but something to be aware of.
