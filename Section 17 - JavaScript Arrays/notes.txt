@@ -1,0 +1,7 @@
+An Array is an ordered collection of values. Example: Comment on a post, songs in a playlist, etc.
+Arrays have length. Example: arrayName.length will return a length just like a string would.
+JavaScript allows for any find of data type to exist inside, even other arrays.
+
+In an array, each element (or thing) has an index which will start at 0.
+
+With an array, you can use indexOf to update a value in the array. Example: colors[0] = "red"; or colors[2] = "yellow";
