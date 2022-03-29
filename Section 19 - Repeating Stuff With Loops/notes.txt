@@ -1,0 +1,4 @@
+---Loops---
+Looping allows us to repeat code without having to re-write it over and over again.
+Types of Loops: for loop, while loop, for...of loop, for...in loop
+
