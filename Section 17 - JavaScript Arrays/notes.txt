@@ -22,3 +22,6 @@ Reverse: Reverses an array
 Slice: Copies a portion on an array
 Splice: Removex/Replaces elements
 Sort: Sorts an array
+
+Coding exercise had me access an array within an array and update a single value from Null to "Hugo".
+airplaneSeats[3].splice(2,1,"Hugo");
