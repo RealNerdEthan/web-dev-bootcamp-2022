@@ -1,3 +1,4 @@
+---JavaScript Array---
 An Array is an ordered collection of values. Example: Comment on a post, songs in a playlist, etc.
 Arrays have length. Example: arrayName.length will return a length just like a string would.
 JavaScript allows for any find of data type to exist inside, even other arrays.
@@ -5,3 +6,19 @@ JavaScript allows for any find of data type to exist inside, even other arrays.
 In an array, each element (or thing) has an index which will start at 0.
 
 With an array, you can use indexOf to update a value in the array. Example: colors[0] = "red"; or colors[2] = "yellow";
+
+---Array Methods--- (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
+Push: Add value to the end of the array.
+Pop: Remove the last value at the end of the array.
+Shift: Remove the first value at the beginning of the array.
+Unshift: Add a value to the beginning of the array.
+
+Less common methods:
+Concat: Merge arrays
+Includes: Look for a value
+indexOf: Just like a string.indexOf
+Join: Create a string from an array
+Reverse: Reverses an array
+Slice: Copies a portion on an array
+Splice: Removex/Replaces elements
+Sort: Sorts an array
