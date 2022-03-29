@@ -1,0 +1,18 @@
+---Object Literals---
+Objects in Javascript are similar to arrays in that they store information and can combine multiple types of data, unlike arrays
+they store data via key-value pairs or "properties". The order (or "index") doesn't matter like it does in an array, instead we want labels 
+for the information in the form of a "key" which is tied to a "value".
+
+Keys are converted to strings, so even a number would be converted to a string.
+
+Example: const person = {firstName: "Ethan", lastName: "Goddard", age: 31, hobbies: ["3D Printing", "Board Games", "Coding"], isLoggedIn: false};
+Another way to format it:
+const person = {
+    firstName: "Ethan", 
+    lastName: "Goddard", 
+    age: 31, 
+    hobbies: ["3D Printing", "Board Games", "Coding"], 
+    isLoggedIn: false
+    };
+
+Arrays and Objects work together and provide far more power than each could on their own.
