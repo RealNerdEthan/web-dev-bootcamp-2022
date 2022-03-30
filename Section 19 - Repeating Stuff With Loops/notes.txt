@@ -2,3 +2,9 @@
 Looping allows us to repeat code without having to re-write it over and over again.
 Types of Loops: for loop, while loop, for...of loop, for...in loop
 
+The three parts of the loop let(i=1; i<=100; i++) are:
+i=1: The variable we create for the loop
+i<100: The expression that needs to be true for the loop to continue (and which stops the loop once it is false)
+i++: The increment or decriment method that we are changing the variable value during each loop (can be +, -, *, or /)
+
+---Infinite Loops---
