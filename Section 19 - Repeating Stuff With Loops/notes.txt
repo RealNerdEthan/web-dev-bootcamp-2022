@@ -7,4 +7,14 @@ i=1: The variable we create for the loop
 i<100: The expression that needs to be true for the loop to continue (and which stops the loop once it is false)
 i++: The increment or decriment method that we are changing the variable value during each loop (can be +, -, *, or /)
 
----Infinite Loops---
+---While Loops---
+They are most useful when the amount of time the loop runs is variable. It could involve user input or be part of a game loop.
+
+---The Keyword "Break"---
+When some condition becomes true, we "break" out of the loop and it will stop the execution immediately. Then code resumes
+running after our loop.
+
+---For...Of Loop---
+In new in JavaScript and not supported by IE but is a significantly easier/better way to iderate over arrays and other iterables.
+We can write a variable the correspondes to the individual element instead of a variable the correspondes to an index, which allows 
+us to remove the need for to use i and iderate over it (i++).
