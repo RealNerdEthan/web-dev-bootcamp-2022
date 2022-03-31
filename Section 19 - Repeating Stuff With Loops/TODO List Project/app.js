@@ -1,4 +1,4 @@
-const todoList = ["test1", "test2", "code", "game", "travel"];
+const todoList = ["Clean the dishes", "Take out the trash", "Practice coding", "Watch a movie"];
 let userCommand = prompt("Please enter a command:");
 
 while (userCommand.toLowerCase() !== "quit"){
