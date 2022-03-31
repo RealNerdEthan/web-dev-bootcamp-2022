@@ -18,3 +18,6 @@ running after our loop.
 In new in JavaScript and not supported by IE but is a significantly easier/better way to iderate over arrays and other iterables.
 We can write a variable the correspondes to the individual element instead of a variable the correspondes to an index, which allows 
 us to remove the need for to use i and iderate over it (i++).
+
+---Object Literals---
+Are not considered iderable. You need to use and for...in loop.
