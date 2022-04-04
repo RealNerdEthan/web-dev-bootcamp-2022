@@ -1,0 +1,17 @@
+---Function Scope---
+Where we define a variable in JavaScript impacts where we have access to it.
+
+---Block Scope---
+Block refers to any content with {} that isn't a function (Example: conditional statements or loop)
+
+---Lexical Scope---
+A child (or inner) function nested inside a parent (or outter) function has 
+access to the parent's functions. This contnues on for every nested function
+inside another nested function. They all have access to their "parent"'s 
+functions.
+
+The parent function DOES NOT have access to their child's variables.
+
+---Function Expressions---
+Function expression is a way of storing a function in a variable. JavaScript
+considers function just another value like any other.
