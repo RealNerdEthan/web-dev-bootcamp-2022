@@ -1,0 +1,30 @@
+---Functions Intro---
+Functions are reusable chunks of code. Super useful for reducing the 
+duplication of code and making code easier to understand.
+
+A function is a 2 step process. You "define" the function (telling JavaScript 
+about it) then you can "run" the function whenever and as many times as you
+want.
+
+Defining a function:
+function funcName(){
+    do something;
+}
+
+---Argumanets---
+Are a fance way of saying inputs to a function. The part in the ().
+
+---Parameters---
+A parameter is a variable passed to a function and gives value to the argument 
+in the function.
+
+Example:
+Parameters are the aliases for the values that will be passed to the function. The arguments are the actual values.
+
+let foo = function( a, b, c ) {}; // a, b, and c are the parameters
+foo( 1, 2, 3 ); // 1, 2, and 3 are the arguments
+
+---The Return Keyword---
+Built-in methods "return" values when we call them. We can store those values
+to a new variable. Also the return keyword stops the execution of your function.
+You can only return 1 thing. It could be an array, but only 1 array.
