@@ -15,3 +15,22 @@ The parent function DOES NOT have access to their child's variables.
 ---Function Expressions---
 Function expression is a way of storing a function in a variable. JavaScript
 considers function just another value like any other.
+
+---Higher Order Function---
+They are functions that operate on or with other functions. They can accept other functions as an
+argument and/or "return" a function.
+
+A factory function is one that will make another function for you.
+
+---Method---
+A method is simply a function that has been placed as a property on an object. All Methods are function,
+but not all functions are methods. Examples: .indexOf() and .toUppercase
+
+---Keyword "This"---
+You can use the keyword to access other properties on the same object.
+"This" can change based on how we call the function (from inside the object). If we call a function that refers to "this" that is
+being used inside an object, it will actually refer to the window object instead of the object that it exists in. A weird quirk,
+but something to be aware of. The default reference of "this" is the window object.
+
+---Try and Catch---
+Two statements in JavaScript that have to do with errors. They "catch" errors and prevent the stopping of the execution of our code.
