@@ -7,7 +7,7 @@ try {
 
 console.log("If you see this message, the code still ran after an error was encountered!");
 
-//Another example, using a function
+//Another example, using it in a function
 function yell(message){
     try {
         console.log(message.toUpperCase().repeat(3));

@@ -1,0 +1,21 @@
+This section is all about built-in array methods that require us to pass in functions. It's a crucial part of working with arrays
+in JavaScript and arrays are crucial to working with JavaScript, so the topic is important.
+
+-forEach
+-map
+-filter
+-find
+-reduce (less important than the others)
+-some
+-every
+
+---For Each---
+Accepts a callback function. Calls the function once per element in an array. They are also older and there are times you could
+substitute these for newer syntax.
+
+---Map---
+Creates a new array with the results of calling a callback on every element in the array. Works very much for forEach but then
+generates a new array based on the result.
+
+---Arrow Functions---
+Allows us to write functions without having to use the keyword "function".
