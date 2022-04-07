@@ -19,3 +19,20 @@ generates a new array based on the result.
 
 ---Arrow Functions---
 Allows us to write functions without having to use the keyword "function".
+
+---setTimeout and setInterval---
+Two functions that expect you to pass a callback function in, but are not array methods. They delay/postpone code execution for a
+later time.
+
+---Filter Method---
+Creates a new array with all elements that pass the test implemented by the provided function. Typically we pass in a function
+that needs to return true or false and for any element that returns true it gets added into the new filtered array that is created.
+
+---Some---
+Returns true if any of the array elements pass the test function.
+
+---Every---
+Tests whether all elements in the array pass the test function, and if so will return true.
+
+---Some and Every---
+Will always return true or false (never returns a new array) and are ways to test an array.
