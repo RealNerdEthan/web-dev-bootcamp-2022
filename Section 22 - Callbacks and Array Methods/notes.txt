@@ -36,3 +36,12 @@ Tests whether all elements in the array pass the test function, and if so will r
 
 ---Some and Every---
 Will always return true or false (never returns a new array) and are ways to test an array.
+
+---Reduce Method---
+Executes a reducer method function on each element of the array, resulting in a single value. This could be via math, but also could
+be via compairison of values which could be in an array or part of an object.
+
+---Arrow Functions and This---
+The keyword "this" works very differently inside an arrow function. Inside an arrow function, the keyword "this" is just going to
+refer to the scope that it was created in. Typically it will refer to the window object. You usually wouldn't use an arrow function to define
+a method.
