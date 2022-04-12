@@ -1,0 +1,26 @@
+---Default Params---
+When creating a function, it can optional to have a user input a value, and if theu don't we cab use a default value (parameter).
+
+---Spread In Function Calls---
+It's kind of like the swiss army knife of JavaScript. We are taking something and exapnding or "spreading" it out (array, string, etc).
+
+---Spread With Array Literals---
+Create a new array using an existing array. Spreads the elements from one array into another.
+
+---Spread With Object Literals---
+Copies properties from one object into another object. Often used when copying objects.
+
+---Rest Params---
+The syntax looks like spread but it's not, we're not spreading things out we are collecting them into a single parameter. 
+Collects all remaining arguments not specifically called out into an actual array of their own.
+
+---Destructuring Arrays---
+A short, clean syntax to "unpack" values from arrays and properties from objects into distinct variables.
+
+---Destructuring Objects---
+Destructing is more commonly used with an object because it's not all about the order of the elements, but instead looks at their
+key value property. Example: {name: Ethan} instead of look for index 0 of an array
+This doesn't change the original object in any way.
+
+---Destructing Params---
+Most frequently used with objects, we can destructer values that are being passed into the function.
