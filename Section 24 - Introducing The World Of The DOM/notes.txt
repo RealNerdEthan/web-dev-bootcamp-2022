@@ -1,0 +1,5 @@
+---DOM---
+Document object model. It is a Javascript representation of a webpage. It's your JS "window" into the content
+of the webpage. It is essentially a bunch of objects that you can interact with via JS. It's how we do things
+like make drop down menus function.
+

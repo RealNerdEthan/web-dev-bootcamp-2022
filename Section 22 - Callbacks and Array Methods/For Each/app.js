@@ -14,7 +14,7 @@ numbers.forEach(function(el){
     }
 });
 
-//A newer way of doing something similar. this wasn't always around, so you might encounter forEach in older code.
+//A newer way of doing something similar. This wasn't always around, so you might encounter forEach in older code.
 for (let el of numbers){
     console.log(el);
 }

@@ -10,7 +10,7 @@ function sum(...numbers) {
     return numbers.reduce((total, element) => total + element)
 }
 
-//Another example whwre we will call out the first twp specifically and then call out the "rest" using ...everyoneElse
+//Another example whwre we will call out the first two specifically and then call out the "rest" using ...everyoneElse
 function raceResults(gold, silver, ...everyoneElse){
     console.log(`Gold medal goes to: ${gold}`);
     console.log(`Silver medal goes to: ${silver}`);

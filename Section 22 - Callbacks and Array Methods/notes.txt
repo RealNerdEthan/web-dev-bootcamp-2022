@@ -14,7 +14,7 @@ Accepts a callback function. Calls the function once per element in an array. Th
 substitute these for newer syntax.
 
 ---Map---
-Creates a new array with the results of calling a callback on every element in the array. Works very much for forEach but then
+Creates a new array with the results of calling a callback on every element in the array. Works very much like forEach but then
 generates a new array based on the result.
 
 ---Arrow Functions---
