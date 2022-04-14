@@ -3,3 +3,20 @@ Document object model. It is a Javascript representation of a webpage. It's your
 of the webpage. It is essentially a bunch of objects that you can interact with via JS. It's how we do things
 like make drop down menus function.
 
+---JavaScript Element---
+An Element in Javascript is an object with properties that represets a single HTML Element.
+
+You can select Elements in 3 ways:
+getElementById (https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+getElementsByTagName (https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName)
+getElementsByClassName (https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)
+
+---HTML Collection---
+Is an array like object that displays HTML Element proerties and methods. Is Generated when we use getElementById, getElementsByTagName, and getElementsByClassName.
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection
+
+---querySelector---
+A newer additon to the DOM, querySelector is an all-in-one method to select a single Element.
+https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+
+There is also querySelectorAll: Same idea, returns a collection of matching Elements instead of just the first match.
