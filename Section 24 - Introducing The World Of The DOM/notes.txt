@@ -20,3 +20,47 @@ A newer additon to the DOM, querySelector is an all-in-one method to select a si
 https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
 
 There is also querySelectorAll: Same idea, returns a collection of matching Elements instead of just the first match.
+
+---innerHTML, textContent, innerText---
+These are DOM properties that can be used to set or update the content of an Element.
+
+innerHTML: Retrieves the full contents (including the tag names) of the Element between the opening and closing tags (https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+textContent: Gives the text inside the Element, regardless of what's being displayed or what is hidden from the user.
+(https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
+innerText: Gives the text inside the Element and ignores any tags. Also is sensitive to what is currently bring displayed
+and anything hidden is ignored. (https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
+
+---Attributes---
+getAttribute: https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute
+setAttribute: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
+
+---Style---
+The JavScript Style object won't display any style attributes set in another file (like a .css file) but it will display any in-line 
+styles found in the HTML. Those are pretty uncommon so what we use the Style object for is to override those values from the .css file
+using JavaScript.
+
+---classList---
+Is an object that we can interact with to control the classes on an element and to retreive or manipulate them. It has useful methods
+such as .add, .remove, and .toggle.
+
+---Traversing---
+All of these properties allow us to naviagte from one Element to a realitive (parent/child/sibling).
+
+parentElement: https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement
+childElementCount: https://developer.mozilla.org/en-US/docs/Web/API/Element/childElementCount
+children: https://developer.mozilla.org/en-US/docs/Web/API/Element/children
+nextSibling: https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling
+nextElementSibling: https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling
+previousSibling: https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling
+previousElementSibling: https://developer.mozilla.org/en-US/docs/Web/API/Element/previousElementSibling
+
+---append and appendChild---
+appendChild: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+append: https://developer.mozilla.org/en-US/docs/Web/API/Element/append
+prepend: https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend
+insertAdjacentElement: https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement
+after: https://developer.mozilla.org/en-US/docs/Web/API/Element/after
+
+---remove and removeChild---
+removeChild: https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
+remove: https://developer.mozilla.org/en-US/docs/Web/API/Element/remove
