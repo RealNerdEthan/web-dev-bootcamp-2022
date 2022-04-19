@@ -1,0 +1,4 @@
+---Events---
+Are the key to creating any sort of interactive websites that do anything in response to what users are doing.
+https://developer.mozilla.org/en-US/docs/Web/API/Event
+
