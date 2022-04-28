@@ -2,3 +2,9 @@
 Are the key to creating any sort of interactive websites that do anything in response to what users are doing.
 https://developer.mozilla.org/en-US/docs/Web/API/Event
 
+---Inline Events---
+Written directly in the HTML element we can add an attribute called "onclick="".
+There are others such as onfocus, onpause, ondrag, and more. This isn't the recommened
+way to add JS to HTML elements but it is an option. Also note the functionalty
+only applies to the one HTML element and would need to be coded for every one
+you want to do that function/action.
