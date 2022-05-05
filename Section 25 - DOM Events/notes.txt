@@ -8,3 +8,35 @@ There are others such as onfocus, onpause, ondrag, and more. This isn't the reco
 way to add JS to HTML elements but it is an option. Also note the functionalty
 only applies to the one HTML element and would need to be coded for every one
 you want to do that function/action.
+
+---Onclick Property---
+https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/onclick
+
+---addEventListener---
+https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+
+---Random Color Generator Exercise---
+
+---Events & The Keyword This Exercise---
+
+---Keyboard Events & Event Objects---
+The Event object is automatically passed in whenever we use a callback and it contains information about the object.
+Key value is used if you want the actual key letter that was pressed.
+Code value is used for the key's physical location and is not language specific. (WASD for gaming or something similar)
+
+---Form Events & Prevent Default---
+The defualt action of a form can be set in HTML using action="". The defualt action of a form is to submit whatever data you input to
+the location that you set using action="" and take you to that new page. this can be overridden with the method event.preventDefault
+
+---Input & Change Events---
+Change: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
+Input: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event
+
+---Event Bubbling---
+When a nested event inside another event in triggered, it will trigger parent event(s) as well. Using .stopPropagation will stop the
+event bubbling.
+
+---Event Delegation---
+We can add an event listener to an element that is a parent to the element we want it to apply to. This ensures the children elements
+will always have access to the event listener, even if they are created after the page has loaded.
+https://www.geeksforgeeks.org/event-delegation-in-javascript/
