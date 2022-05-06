@@ -1,0 +1,2 @@
+---The Call Stack---
+A mechanism that JavaScript uses behind the scenes 
