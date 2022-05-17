@@ -1,2 +1,2 @@
 ---The Call Stack---
-A mechanism that JavaScript uses behind the scenes 
+A mechanism that JavaScript uses behind the scenes to keep track of its place in a script that calls multiple functions.

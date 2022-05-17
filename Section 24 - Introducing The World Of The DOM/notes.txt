@@ -36,8 +36,7 @@ setAttribute: https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttrib
 
 ---Style---
 The JavScript Style object won't display any style attributes set in another file (like a .css file) but it will display any in-line 
-styles found in the HTML. Those are pretty uncommon so what we use the Style object for is to override those values from the .css file
-using JavaScript.
+styles found in the HTML. Those are pretty uncommon so we use the Style object to override those values from the .css file using JavaScript.
 
 ---classList---
 Is an object that we can interact with to control the classes on an element and to retreive or manipulate them. It has useful methods
